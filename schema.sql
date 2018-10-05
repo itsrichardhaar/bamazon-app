@@ -3,7 +3,7 @@ CREATE database bamazonDB;
 USE bamazonDB;
 
 CREATE TABLE products (
-  item_id INT(10) AUTO_INCREMENT NOT NULL,
+  item_id INT(10) NOT NULL,
   product_name VARCHAR(100) NOT NULL,
   department_name VARCHAR(100) NOT NULL,
   price DECIMAL(10,2) NOT NULL,
@@ -18,7 +18,7 @@ VALUES
 ("iPhone X", "Electronics", 1000.00, 10),
 ("iPad Pro", "Electronics", 800.00, 10),
 ("MacBook Pro", "Electronics", 2500.00, 5),
-("XBox 1", "Electronics", 299.99, 8),
+("XBox One", "Electronics", 299.99, 8),
 ("Playstation 4", "Electronics", 299.99, 8),
 ("Dishes", "Kitchen", 25.00, 10),
 ("Monopoly", "Games", 15.00, 100),
